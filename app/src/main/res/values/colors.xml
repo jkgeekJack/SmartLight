@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="custom_theme_primary">#1E88E5</color>
+
+    <integer-array name="custom_theme">
+        <item>@color/colorPrimaryDark</item> <!-- really much darker color of main color -->
+        <item>@color/colorPrimaryDark</item> <!-- a bit darker color of your main color -->
+        <item>@color/custom_theme_primary</item> <!-- main color of your theme -->
+        <item>@color/colorPrimaryDark</item> <!-- really much lighter color of main color -->
+    </integer-array>
+</resources>
